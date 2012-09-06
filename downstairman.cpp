@@ -10,7 +10,7 @@ int main(int argcs, char* argv[])
 	if( !gb.init() )
 		return 0;
 	cout<<"init ok"<<endl;
-	gb.reset();
+	gb.initGameBoard();
 	gb.start();
 	return 0;
 }

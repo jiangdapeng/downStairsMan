@@ -60,7 +60,7 @@ public:
 	}
 	virtual void draw();
 	virtual bool isCollide(const CProp& other);
-private:
+protected:
 	int _coordinateX;
 	int _coordinateY;
 	int _oldX; // Last x coordinate

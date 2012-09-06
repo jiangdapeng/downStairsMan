@@ -11,7 +11,6 @@ Sprite::Sprite(int x,int y,int w,int h,int spdX,int spdY)
 	_lives = 3;
 	_bitmap = NULL;
 	_color = al_map_rgb(0,255,0);
-	//al_clear_to_color(color);
 }
 
 Sprite::~Sprite()
